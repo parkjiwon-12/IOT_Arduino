@@ -14,3 +14,4 @@ void loop() {
     digitalWrite(LED, LOW);    // 버튼 안눌림 → LED OFF
   }
 }
+

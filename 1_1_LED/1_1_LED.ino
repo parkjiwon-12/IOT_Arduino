@@ -1,4 +1,4 @@
-#define LED_PIN 25    // LED 연결된 GPIO 25번 사용
+#define LED_PIN 25    // LED 연결된 GPIO 25번 사용 - 내용 업데이트
 
 void setup() {
   pinMode(LED_PIN, OUTPUT);   // LED 핀을 출력으로 설정
@@ -10,3 +10,5 @@ void loop() {
   digitalWrite(LED_PIN, LOW);   // LED 끄기
   delay(1000);                        // 1초 대기
 }
+
+
